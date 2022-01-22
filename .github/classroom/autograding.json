@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "POST /animals",
+      "setup": "npm install",
+      "run": "npm run test-post",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "GET /animals",
+      "setup": "npm install",
+      "run": "npm run test-get",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "UTC Date",
+      "setup": "npm install",
+      "run": "npm run test-date",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

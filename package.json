@@ -1,0 +1,24 @@
+{
+  "name": "modelo-atividades",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "test": "jest --noStackTrace",
+    "test-date": "jest --noStackTrace animalDate",
+    "test-get": "jest --noStackTrace animalGet",
+    "test-post": "jest --noStackTrace animalPost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

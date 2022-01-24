@@ -9,7 +9,7 @@ router.get("/animals", (req, res) => {
 
 router.post("/animals", (req, res) => {
     if(req.body.name == undefined){
-        res.status(400).send("Error: Operação não foi realizada. Propriedade name não deve ser omitida!")
+        res.status(400).json({Error:"Operação não foi realizada. Propriedade name não deve ser omitida!"})
     } else{
         const data = AnimalsController.createOne(req.body)
         res.status(201).json(data)

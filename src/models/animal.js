@@ -1,11 +1,11 @@
 const db = require("../mock/db")
 
 class Animals{
-    constructor({name, animal = null, weight = null, color = null, breed = null}){
+    constructor({name, animal = null, weigth = null, color = null, breed = null}){
         this.id = this.createId() +1
         this.name = name
         this.animal = animal
-        this.weight = weight
+        this.weigth = weigth
         this.color = color
         this.breed = breed
         this.createdAt = new Date().toUTCString()
